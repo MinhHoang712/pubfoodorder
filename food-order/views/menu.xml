@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <menuitem
+            id="menu_food_main"
+            name="Food Order"
+            sequence="5"/>'
+
+    <menuitem id="menu_food_order"
+          name="Đặt đồ ăn"
+          parent="menu_food_main"
+          action="action_food_order"
+              sequence="10"/>
+
+<!--      <menuitem id="menu_user_payment_info"-->
+<!--                  name="Thông tin Thanh Toán"-->
+<!--                  action="action_user_payment_info"-->
+<!--                  parent="menu_food_main"-->
+<!--                sequence="15"/>-->
+
+    <menuitem id="menu_user_payment_info2"
+                  name="Thông tin Thanh Toán"
+                  action="action_open_current_user_payment_info"
+                  parent="menu_food_main"
+                sequence=" 30"/>
+
+</odoo>
