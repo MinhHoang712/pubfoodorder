@@ -11,7 +11,9 @@
     """,
 
     'icon':'static/description/icon.png',
-
+    'images': [
+        'static/description/2010503.jpg',  # Đường dẫn tới ảnh bìa
+    ],
     'author': "Hoang Tommy",
     'website': "https://www.yourcompany.com",
 
