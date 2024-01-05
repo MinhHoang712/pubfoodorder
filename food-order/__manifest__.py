@@ -14,6 +14,9 @@
     'images': [
         'static/description/2010503.jpg',  # Đường dẫn tới ảnh bìa
     ],
+    'price': 1,  
+    'currency': 'USD',
+    
     'author': "Hoang Tommy",
     'website': "https://www.yourcompany.com",
 
@@ -22,7 +25,7 @@
     'version': '0.1',
 
     'depends': ['base', 'mail'],
-
+    
     'data': [
         'security/rule.xml',
         'security/ir.model.access.csv',
